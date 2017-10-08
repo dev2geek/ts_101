@@ -13,4 +13,4 @@ complexType = { id: 2, name: "anotherName" };
 // compiler reports error for following statement as object literal can only assign known properties
 // complexType = { id: 2, name: "anotherName", scope: 'aone' };
 
-complexType.scope = 'aone';
+// complexType.scope = 'aone';
