@@ -8,7 +8,9 @@
     "jest-cov": "jest --coverage",
     "test": "mocha",
     "test-cov": "nyc --all mocha",
-    "clean": "rm -rf ./dist/**"
+    "clean": "rm -rf ./dist/**",
+    "ci": "npm run jest",
+    "ci-cov": "npm run jest-cov"
   },
   "author": "",
   "license": "ISC",
