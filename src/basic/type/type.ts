@@ -5,5 +5,5 @@ function doCalculation(
   return (a * b) + c;
 }
 
-var result = doCalculation(3, 2, 1);
+const result = doCalculation(3, 2, 1);
 console.log("doCalculation():" + result);

@@ -1,0 +1,20 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "linterOptions": {
+      "exclude": [
+
+      ]
+    },
+    "jsRules": {},
+    "rules": {
+      "no-console": false,
+      "member-access": false,
+      "max-classes-per-file": [true, 5],
+      "no-object-literal-type-assertion": false,
+      "object-literal-sort-keys": false
+    },
+    "rulesDirectory": []
+}

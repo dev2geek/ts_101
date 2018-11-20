@@ -7,4 +7,4 @@ class SimpleClass {
 
 let mySimpleClass = new SimpleClass();
 mySimpleClass.id = 1001;
-mySimpleClass.print(); 
+mySimpleClass.print();

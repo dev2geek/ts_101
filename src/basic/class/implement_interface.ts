@@ -1,15 +1,19 @@
-// interface IPrint { 
-//     void print(); 
-//   } 
+interface IPrint {
+  print(): void;
+}
 
-// function printClass(a: IPrint) {
-//     a.print();
-// }
+function printClass(a: IPrint) {
+  a.print();
+}
 
-// class ClassA implements IPrint {
-//     print() { console.log('ClassA.print()') };
-// }
+class ClassA implements IPrint {
+  print() {
+    console.log("ClassA.print()");
+  }
+}
 
-// class ClassB implements IPrint {
-//     print() { console.log(`ClassB.print()`) };
-// }
+class ClassB implements IPrint {
+  print() {
+    console.log(`ClassB.print()`);
+  }
+}

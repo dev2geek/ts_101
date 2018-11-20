@@ -1,10 +1,10 @@
-var inferredString = "this is a string"; 
-var inferredNumber = 1; 
+const inferredString = "this is a string";
+const inferredNumber = 1;
 
 // compiler reports error for following statement
 // inferredString = inferredNumber;
 
-var complexType = { name: "myName", id: 1 };
+let complexType = { name: "myName", id: 1 };
 complexType = { id: 2, name: "anotherName" };
 
 // compiler reports error for following statement as missing 'name' property
